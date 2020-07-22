@@ -1,0 +1,248 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+}
+@media(max-width: 700px){
+    html{
+        font-size: 62.5%;
+    }
+    html{
+        background-color: rgb(245, 248, 218);
+        color: white;
+    }
+    .heading{
+        margin: 30px 0 15px ;
+        letter-spacing: 2px;
+        font-size: 4rem; 
+        color: rgb(255, 255, 255);
+        font-weight:100;
+        text-align: center;
+    }
+    .button{
+        display:block;
+    }
+    .sns{
+        display: block;
+        float: none;
+    }
+   .about{
+       background-color: black;
+   }
+   .logo{
+       display: block;
+       float:none;
+   }
+   .site-title-sub{
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    color: black;
+    text-align:center;
+    width: 100%;
+    margin: 0 auto;
+     }
+ .logo{
+   display: block;
+    float: none;
+    width: 100%;
+    height: 100px;
+   margin: 0 auto;
+  }
+ .about-text{
+     display: block;
+     background-color: rgba(255, 254, 254, 0.5);
+     font-weight: bold;
+    line-height: 2.5;
+    margin-left: 0px;
+    color: dimgrey;
+    border: solid;
+    height: 100px;
+    width: 100%;
+    text-align:left;
+    font-size: 1.2rem;
+}
+.pr{
+    color: black;
+    display: block;
+}
+.pr-text{
+    color: rgb(255, 255, 255);
+    display:block;
+}
+
+.clear{
+    clear: both;
+}
+
+/* ---------------ここからPC----------------------------- */
+}
+
+.header{
+    padding: 0px 30px 0 ;
+    color:black;
+    vertical-align:middle;
+
+}
+
+
+.site-title-sub{
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    color: black;
+    text-align: left;
+    width: 100%;
+
+}
+.site-title{
+    font-weight: bold;
+    font-size: 3.0rem;
+    margin: 0;
+    text-align: left;
+}
+.site-title h1{
+    margin: 0;
+}
+.site-description{
+    margin:5px 0 10px;
+    color: black;
+    font-size: 1.6rem;
+    text-align: right;
+    font-weight: 900;
+}
+.snsbtniti{
+    margin-bottom: 0;
+}
+.mylogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    list-style: none;
+    float: right;
+    transition:transform  0.5s;
+}
+.logo:hover{
+    -webkit-transform:rotate(360deg);
+    transform :rotate(360deg);
+}
+.fab {
+    font-size: 3.0rem;
+    width: 50px;
+    height: 50px;
+    color: #000000;
+    line-height: 142px;
+}
+
+.fa:hover{
+    color: rgb(71, 71, 71);
+    border-bottom:black 1px solid ;
+}
+.fab:hover{
+    color: rgb(71, 71, 71);
+    border-bottom:black 1px solid ;
+}
+.fa{
+    font-size: 3.0rem;
+    width: 50px;
+    height: 50px;
+    color: #000000;
+    line-height: 142px;
+    
+}
+.sns{
+    float: right;
+}
+.sns-li{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+.button{
+    display: inline-block;
+    width: 70px;
+    padding: 10px;
+    border-bottom: #000 1px solid;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.button:hover{
+    opacity: 0.6;
+    color: rgb(68, 68, 68);
+    border: rgb(0, 0, 0) 1px solid ;
+    
+}
+.buttons{
+    text-align: right;
+}
+.about{
+    padding: 30px 30px ;
+    background-color:rgb(248, 240, 218);
+    color: #fff;
+    /* margin-top: 50px; */
+}
+.about h1 {
+    background-color:rgb(177, 176, 176,0.3);
+}
+.logo{
+    /* border-radius: 50%; */
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.heading{
+    margin: 30px 0 15px ;
+    letter-spacing: 2px;
+    font-size: 4rem; 
+    color: black;
+    font-weight:100;
+    text-align: center;
+}
+.about-text{
+    margin:0;
+    margin-left: 0;
+    line-height: 2.5;
+    color: dimgrey;
+    border: solid;
+    height: 200px;
+    width: 70%;
+    margin: 10px auto 10px;
+    float:right;
+    text-align:left;
+    font-size: 1.2rem;
+}
+.clear.pr {
+    clear: both;
+
+}
+.pr{
+    color: black;
+}
+.pr-text{
+    color: black;
+}
+.footer{
+    display: block;
+    text-align: center;
+}
+.footer-button{
+    display:block;
+    width: 50px;
+    padding: 5px;
+    /* border-radius: 50px; */
+    border: rgb(116, 115, 115) solid;
+    background-color: rgb(255, 214, 221);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.0rem;
+    text-align: center;
+}
+.footer-button:hover{
+    background-color: rgb(243, 113, 113);
+}
