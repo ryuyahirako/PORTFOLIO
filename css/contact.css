@@ -1,12 +1,18 @@
 @charset "UTF-8";
 html{
     font-size: 62.5%;
+    background-color: rgb(253, 237, 223);
 }
 
 .header{
     padding: 0px 30px 0 ;
     color:black;
     vertical-align:middle;
+    text-shadow:4px 4px 5px rgb(255, 255, 255); 
+    background-position: center;
+    background-image: url(../image/hawaii-1945486_1920.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -109,10 +115,8 @@ html{
     width: 50%;
     margin: 50px auto 0;
 }
-/* .contact{
-    background-image: url(../image/nightview.png);
-    background-size: cover;
-} */
+
+
 .contact-form input[type=text],
 .contact-form textarea{
     display: block;
@@ -150,7 +154,6 @@ html{
     display: inline-block;
     width: 50px;
     padding: 5px;
-    /* border-radius: 50px; */
     border: rgb(116, 115, 115) solid;
     background-color: rgb(255, 214, 221);
     color: #fff;
@@ -173,4 +176,27 @@ html{
 .heading{
     text-align: center;
 }
+@media(max-width: 768px){
+    html{
+        font-size: 62.5%;
+    }
+    .contact{
+        color: white;
+    }
+    .site-title-sub{
+        font-size: 1.5rem;
+    }
+    .site-title{
+        font-size: 2.0rem;
+    }
+    .contact{
+        background-image: url(../image/bg.png);
+        background-size: cover;
+        height: 600px;
 
+    }
+    .contact-text{
+        color: white;
+        font-size: 0.8rem;
+    }
+}

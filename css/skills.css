@@ -2,12 +2,18 @@
 
 html{
     font-size: 62.5%;
+    background-color: rgb(253, 237, 223);
 }
 
 .header{
     padding: 0px 30px 0 ;
-    color:black;
+    color:rgb(46, 46, 46);
+    text-shadow:4px 4px 5px rgb(255, 255, 255); 
     vertical-align:middle;
+    background-position: center;
+    background-image: url(../image/hawaii-1945486_1920.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -108,13 +114,15 @@ html{
 }
 
 .skills{
-    padding: 80px o ;
-    /* background-color: #fff; */
+    padding: 80px 0;
     color: #333;
-    background-image: url(../image/girl-2940655_1920.jpg);
+    background-image: url(../image/father-1004022_1920.jpg);
     background-size: cover;
+    background-position: center;
 }
-    
+.initial{
+    color: rgb(238, 255, 0);
+}
 .skills-wrapper{
     display: table;
     width: 80%;
@@ -123,22 +131,19 @@ html{
 }
 .skill-box{
     display: table-cell;
-    border-bottom: solid;
-    background-color: rgb(255, 255, 255,0.3);
+    border: solid;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-right: 5px;
     
 }
 .skill-icon{
     width: 150px;
     height: 150px;
     margin-bottom: 5px;
-    /* border: 4px solid ;
-    border-radius: 50%; */
-    color: #e7d067;
+    color: #fcef7f;
     font-size: 8rem;
     line-height: 142px;
     text-align: center;
-    
-    /* why font staying small ? p192  */
 }
 
 .skill-title{
@@ -151,6 +156,11 @@ html{
     line-height: 2;
     font-size: 1.3rem;
     font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.star{
+    color: yellow;
 }
 .text-sub{
     margin: 0 20px 20px;
@@ -163,18 +173,30 @@ html{
     width: 100%;
     margin: 0px;
     margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.discription{
+    color: rgb(0,0 ,0) ;
+}
+
+.discription-title{
+    text-shadow: 3px 3px 3px black;
+}
+.discription-text{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.5rem;
 }
 .footer{
-    display: inline-block;
+    display: block;
     text-align: center;
 }
 .footer-button{
     display: inline-block;
     width: 50px;
     padding: 5px;
-    /* border-radius: 50px; */
-    border: rgb(116, 115, 115) solid;
-    background-color: rgb(255, 214, 221);
+    border: rgb(0, 0, 0) solid;
+    background-color: rgb(128, 128, 128);
     color: #fff;
     font-weight: bold;
     text-decoration: none;
@@ -183,5 +205,52 @@ html{
     text-align: center;
 }
 .footer-button:hover{
-    background-color: rgb(243, 113, 113);
+    background-color: rgb(70, 56, 56);
+}
+
+/* _________________________ここからレスポンシブ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ */
+@media(max-width: 768px){
+    html{
+        font-size: 62.5%;
+    }
+    .skill-box{
+        display: block;
+    }
+    .skill-icon{
+        display: block;
+        text-align: center;
+    }
+    .skill-title{
+        text-align: center;
+        color: rgb(252, 236, 212);
+
+    }
+    .text-sub{
+        text-align: center;
+    }
+
+    .skill-text{
+        text-align: center;
+        font-size: 1.2rem;
+        color:rgb(252, 255, 255);
+    }
+    .heading{
+        color: white;
+    }
+    .discription{
+        color: black;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 2px black ;
+    }
+    .site-title-sub{
+        font-size: 1.5rem;
+    }
+    .site-title{
+        font-size: 2.0rem;
+    }
+    .skills{
+        background-image: url(../image/bg.png);
+        background-size: cover;
+
+    }
 }
