@@ -199,4 +199,22 @@ html{
         color: white;
         font-size: 0.8rem;
     }
+    .site-title-sub{
+        font-size: 1.5rem;
+        color: white;
+        text-shadow: 5px 5px 4px black;
+    }
+    .site-title{
+        color: white;
+        font-size: 2.0rem;
+        text-shadow: 5px 5px 4px black;
+    }
+    .site-description{
+        color: white;
+        text-shadow: 5px 5px 4px black;
+    }
+    .button{
+        color: white;
+        text-shadow: 5px 5px 4px black;
+    }
 }
